@@ -40,9 +40,9 @@ The `fallback` prop accepts any `React elements` that you want to render while w
 
 | Advantages  | Disadvantages |
 | :---------- | :----------   |
-| Reduces the page load time by bundling the large code into smaller bundles and laoding dynamically only when the component is loaded | Though the initial page load time is reduced, this increases the load time of each component thats loaded dynamically |
+| Reduces the page load time by bundling the large code into smaller bundles and loading dynamically only when the component is needed | Though the initial page load time is reduced, this increases the load time of each component thats loaded dynamically |
 | Only the components that the user needs are loaded initially | There will be many http requests as the components are loaded dynamically |
-| Cna imporve the user experience while loaded by showing suspense fallback/ loading dicator | But, this suspense boundary needs a new chunk of code to be written for showing the shimmer component | 
+| Can improve the user experience while loaded by showing suspense fallback/ loading indicator | But, this suspense boundary needs a new chunk of code to be written for showing the shimmer component | 
 
 ### 5. When do we and why do we need suspense?
 
